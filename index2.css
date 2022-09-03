@@ -113,35 +113,9 @@
     box-shadow: 5px 5px  10px grey;
     margin-right:80px;
     position:relative;
-}
-.div21{
- position:absolute;
- top:15px;
- right:0;
-font-size:25px;
- width:85%;
- text-align:left;
- height:15%;
- color:darkred;
- border-bottom:1px solid black;
 
 }
-.div22{
-    width:90%;
-    height:10%;
-    font-size:20px;
-    text-align:right;
-    position:absolute;
-    top:90px;
-    text-decoration: line-through;
-    color:red;
-    font-weight:bold;
-}
-.div23{
-    position:absolute;
-    top:120px;
-    left:5px;
-}
+
 .card-container2{
     width:100%;
     display:flex;
@@ -210,10 +184,4 @@ font-size:25px;
     width:60px;
     height:30px;
     border-radius:10px;
-}
-.div24{
-    position:absolute;
-    top:290px;
-    left:275px;
-
 }
