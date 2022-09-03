@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    /* overflow:hidden; */
+}
+.upper-container{
+    width:50%;
+    height:10%;
+    margin : 50px auto;
+}
+.upper-container1{
+    width:35%;
+    height:100%;
+    padding-top:20px;
+}
+#tasks{
+    font-weight:bold;
+    font-size:2.5rem;
+}
+#lists{
+    font-size:2.5rem;
+    margin-left:10px;
+    opacity:0.5;
+}
+.upper-container2{
+    width:30%;
+    height:100%;
+    padding-top:70px;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+#addlist{
+    position:relative;
+    width:80%;
+    height:100%;
+    top:0;
+    right:0;
+    font-size:30px; 
+    opacity:0.5;
+    padding-top:25px;
+}
+.card1{
+    margin-top:10px;
+    border:1.5px solid green;
+    height:45vh;
+    width:15%;
+    position:relative;
+    box-shadow: 5px 5px  10px grey;
+    margin-right:80px;
+}
+.div1{
+    position:absolute;
+    top:15px;
+    right:0;
+   font-size:25px;
+   width:85%;
+  text-align:left;
+  height:15%;
+  color:darkred;
+  border-bottom:1px solid black;
+
+}
+.div2{
+    width:90%;
+    height:10%;
+    font-size:20px;
+    text-align:right;
+    position:absolute;
+    top:90px;
+    text-decoration: line-through;
+    color:red;
+    font-weight:bold;
+}
+.div3{
+    position:absolute;
+    top:120px;
+    left:5px;
+}
+.card-container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    /* margin-right:20px; */
+    margin-left:100px;
+
+}
+.horizontal{
+    margin-top:20px;
+}
+.firstp{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    /* padding:25px */
+}
+.back-arrow{
+    display:inline-block;
+}
+.secondp{
+  display:flex;
+  justify-content: center;
+  padding:30px;
+}
+.card2{
+    margin-top:10px;
+    border:1.5px solid green;
+    height:45vh;
+    width:20%;
+    position:relative;
+    box-shadow: 5px 5px  10px grey;
+    margin-right:80px;
+    position:relative;
+}
+.div21{
+ position:absolute;
+ top:15px;
+ right:0;
+font-size:25px;
+ width:85%;
+ text-align:left;
+ height:15%;
+ color:darkred;
+ border-bottom:1px solid black;
+
+}
+.div22{
+    width:90%;
+    height:10%;
+    font-size:20px;
+    text-align:right;
+    position:absolute;
+    top:90px;
+    text-decoration: line-through;
+    color:red;
+    font-weight:bold;
+}
+.div23{
+    position:absolute;
+    top:120px;
+    left:5px;
+}
+.card-container2{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    /* margin-right:20px; */
+    margin-left:30px;
+
+}
+.border-left{
+    height:1px;
+    width:10%;
+    background-color: #000000;
+    margin-top:22px;
+    margin-left:400px;
+}
+.border-right{
+    height:1px;
+    width:10%;
+    background-color: #000000;
+    /* margin-top:250px; */
+    margin-right:400px;
+    margin-top:25px;
+}
+.main-part{
+    display:flex;
+    justify-content: center;
+    padding:20px;
+}
+.back-arrow{
+    margin-right:10px;
+}
+.back-arrow-txt{
+    margin-top:10px;
+}
+.not-show{
+    position:relative;
+    filter:blur(6px);
+    -webkit-filter:blur(6px);
+}
+.pop-up{
+    position:absolute;
+    left:37%;
+    top:30%;
+    height:13 vh;
+    width:27%;
+    border:1.5px solid red;
+    border-radius:10px;
+    padding :40px;
+   box-shadow: 5px 5px  10px grey;
+   background-color:#ffffff;
+}
+.add-new{
+    text-align: center;
+    padding:10px;
+}
+.pop-upbar{
+    margin-left:100px;
+    height:30px;
+}
+.button{
+    margin-left:150px;
+    margin-top:10px;
+    background-color: red;
+    color:#ffffff;
+    border:none;
+    width:60px;
+    height:30px;
+    border-radius:10px;
+}
+.div24{
+    position:absolute;
+    top:290px;
+    left:275px;
+
+}
